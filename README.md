@@ -27,5 +27,5 @@ An autonomous maze-solving robotic platform built on the Arduino architecture. T
 - **Corrective Maneuver:** The robot performs a right-hand turn to explore alternative directions.
 - **Path Verification:** If the path remains blocked after turning, the system initiates a 180° "U-turn" or secondary left-hand exploration to find a clear route.
 
-##💡 Engineering Note
+## 💡 Engineering Note
 The logic uses a One-Shot Snapshot approach for obstacle avoidance. By decoupling the distance calculation from the motor control, the robot can make discrete, logical decisions at intersections rather than simply reacting to proximity.
